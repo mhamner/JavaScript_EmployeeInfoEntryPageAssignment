@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Enter New Employee Information</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Enter New Employee Information</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form">      
+        <h2>Employee Information Entry</h2>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Employee ID:</label>
+          <input type="text" id="employeeId">
+        </div>
+        <div>
+          <label for="name">Employee Name:</label>
+          <input type="text" id="employeeName">
+        </div>
+        <div>
+            <label for="name">Employee Date of Birth:</label>
+            <input type="text" id="employeeDateOfBirth">
+        </div>
+        <div>
+            <label for="name">Department:</label>
+            <input type="text" id="department">
+        </div>
+        <div>
+            <label for="name">Manager:</label>
+            <input type="text" id="manager">
+        </div>
+        <br />
+        <input class="btn" type="submit" value="Submit">
+      </form>
+      <h2>Employees Added</h2>
+      <ul id="employeeList" title="Employees Added">
+      </ul>
+    </section>    
+
+   
+
+    <script src="main.js"></script>
+  </body>
+</html>
